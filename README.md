@@ -4,7 +4,7 @@ A Tool For Predictive Drug Candidates Based On Gene Expression Level
 
 A cancer cell drug sensitivity prediction model, DeepEEA, is embedded in DCGE. Its input features include gene dependency data, gene expression data, compound-gene affinity data, and compound-gene correlation data.
 
-Installation
+**Installation**
 
 Python version: 3.9.16
 
@@ -24,7 +24,7 @@ Scikit-learn version: 1.6.1
 Hyperopt version: 0.2.7
 
 
-Instructions
+**Instructions**
 
 cal_ic50.R:   This study used four drug cell line sensitivity datasets (secondary, CTPR, GDSC1, and GDSC2) from the DepMap database as research objects, and re fitted the dose-response curves using the "dr4pl" package of R software; For repeated drug cell line data, take the median of their values and merge them.
 
