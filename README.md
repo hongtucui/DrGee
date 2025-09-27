@@ -7,11 +7,23 @@ A cancer cell drug sensitivity prediction model, DeepEEA, is embedded in DCGE. I
 Installation
 
 Python version: 3.9.16
+
+
 PyTorch version: 2.6.0+cu118
+
+
 NumPy version: 2.0.1
+
+
 Pandas version: 2.2.3
+
+
 Scikit-learn version: 1.6.1
+
+
 Hyperopt version: 0.2.7
+
+
 
 
 
