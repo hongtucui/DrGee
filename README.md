@@ -2,7 +2,7 @@ A tool for cancer Drug Recommendation based on Gene Essentiality derived from Ex
 
 <img width="962" height="248" alt="image" src="https://github.com/user-attachments/assets/6c61a274-fddb-45ba-935e-76ff1287b956" />
 
-A cancer cell drug sensitivity prediction model, DeepEEAA, is embedded in DrGee. Its input features include gene dependency data, gene expression data, compound-gene affinity data, and compound-gene correlation data.
+A cancer cell drug sensitivity prediction model, DeepEEAA, is embedded in DrGee. Its input features include gene essentiality data, gene expression data, drug-protein affinity data, and drug-gene associations.
 
 **Installation**
 
