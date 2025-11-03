@@ -1,8 +1,8 @@
-A Tool For Predictive Drug Candidates Based On Gene Expression Level
+A tool for cancer Drug Recommendation based on Gene Essentiality derived from Expression
 
 <img width="962" height="248" alt="image" src="https://github.com/user-attachments/assets/6c61a274-fddb-45ba-935e-76ff1287b956" />
 
-A cancer cell drug sensitivity prediction model, DeepEEA, is embedded in DCGE. Its input features include gene dependency data, gene expression data, compound-gene affinity data, and compound-gene correlation data.
+A cancer cell drug sensitivity prediction model, DeepEEAA, is embedded in DrGee. Its input features include gene dependency data, gene expression data, compound-gene affinity data, and compound-gene correlation data.
 
 **Installation**
 
@@ -32,7 +32,7 @@ new_atten_renet.py:   Model training to determine optimal parameters.
 
 new_test.py:   Test using the optimal parameter independent test set.
 
-views.py:  Backend files of DCGE online tool.
+views.py:  Backend files of DrGee online tool.
 
 
 
