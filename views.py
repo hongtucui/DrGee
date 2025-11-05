@@ -92,7 +92,7 @@ def merge_user_exp(user_dat, gene_alis, exp):
     correlation = rank_dat.iloc[:, 1:-1].corrwith(rank_dat.iloc[:, -1])
     return rank_dat, correlation, user_dat
 
-
+#calculate gene essentiality
 def calcu_ess_num(ess, correlation_dat, rank_dat):
     # Add correlation coefficients to the ess DataFrame
     ess['correlation'] = correlation_dat
@@ -266,7 +266,7 @@ def increase_mark(ess, cell_line, rank_dat, gene_list):
     gene_increase.loc[gene_increase['gene'].isin(no_cell_essential_gene), 'category'] = "no_essential_gene"
 
     return gene_increase
-
+#drug screened based on drug-gene associations
 def drug_candidate(gene_increase, current_directory, primary_drug, secondary_drug, ctd_drug, gdsc1_drug, gdsc2_drug):
     # Initialize result DataFrame with specified columns to avoid type warnings
     result_drug_gene = pd.DataFrame(columns=['gene', 'drug', 'correlation', 'p_value', 'cal_num', 'source'])
@@ -328,7 +328,7 @@ def drug_candidate(gene_increase, current_directory, primary_drug, secondary_dru
 #     result_drug_gene = result_drug_gene.dropna()
 #     return result_drug_gene
 
-
+# drug with known gene targets
 def actual_candidate(actual, gene_increase, primary_drug, secondary_drug, ctd_drug, gdsc1_drug, gdsc2_drug):
     actual_filtered = actual[actual['gene'].isin(gene_increase['gene'])]
     
@@ -353,7 +353,7 @@ def actual_candidate(actual, gene_increase, primary_drug, secondary_drug, ctd_dr
             actual_recommend['source'] = "actual"
     return actual_recommend
 
-
+# approved anticancer in drugbank
 def brand_candidate(brand, gene_increase, primary_drug, secondary_drug, ctd_drug, gdsc1_drug, gdsc2_drug):
     brand_filtered = brand[brand['gene'].isin(gene_increase['gene'])]
     if brand_filtered.empty:
@@ -766,4 +766,5 @@ def action(request):
             return HttpResponse("File format error. The file must contain 'gene' and 'exp' columns, and expression levels should not contain missing values.")
 
     else:
+
         return HttpResponse("File upload failed")
