@@ -1,4 +1,4 @@
-A tool for cancer Drug Recommendation based on Gene Essentiality derived from Expression
+A tool for cancer Drug Ranking based on Gene Essentiality derived from Expression
 
 <img width="962" height="248" alt="image" src="https://github.com/user-attachments/assets/6c61a274-fddb-45ba-935e-76ff1287b956" />
 
