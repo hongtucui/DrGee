@@ -36,7 +36,7 @@ test_ic50.py:   IC50 test using the optimal parameter independent test set.
 
 test_ic50.py:   drug response test using the optimal parameter independent TCGA test set.
 
-views.py:  Backend files of DrGee online tool.
+views.py:  Backend files of DrGee online tool, users can input gene expression data from cell lines of interest and obtain two key outputs: predicted gene essentialities in the input cell line, and corresponding drug recommendations and sensitivity. 
 
 
 
