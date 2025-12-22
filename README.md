@@ -8,7 +8,7 @@ A cancer cell drug sensitivity prediction model, DeepEEAA, is embedded in DrGee.
 
 **Installation**
 
-Python version: 3.9.16
+Python version: 3.9.16 (GPU), 3.8.20 (CPU)
 
 
 PyTorch version: 2.6.0+cu118
