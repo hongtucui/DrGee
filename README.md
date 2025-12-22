@@ -34,6 +34,8 @@ predict_response.py: Model Training and Optimal Parameter Optimization of a clas
 
 test_ic50.py:   IC50 test using the optimal parameter independent test set.
 
+test_ic50.py:   drug response test using the optimal parameter independent TCGA test set.
+
 views.py:  Backend files of DrGee online tool.
 
 
