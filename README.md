@@ -39,6 +39,7 @@ test_ic50.py:   drug response test using the optimal parameter independent TCGA 
 
 views.py:  Backend files of DrGee online tool, users can input gene expression data from cell lines of interest and obtain two key outputs: predicted gene essentialities in the input cell line, and corresponding drug recommendations and sensitivity. 
 
+The source code files for predicting IC50 and drug response of machine learning algorithms stored in the conventional_machine_learning folder, including the SVR model, random forest model and XGBoost model.
 
 
 
