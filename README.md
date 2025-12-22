@@ -32,7 +32,7 @@ predict_ic50.py:  Model Training and Optimal Parameter Optimization of a Regress
 
 predict_response.py: Model Training and Optimal Parameter Optimization of a classification Model for Predicting Patients’ Response to Drugs.
 
-new_test.py:   Test using the optimal parameter independent test set.
+test_ic50.py:   IC50 test using the optimal parameter independent test set.
 
 views.py:  Backend files of DrGee online tool.
 
