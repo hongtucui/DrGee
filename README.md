@@ -28,7 +28,7 @@ Hyperopt version: 0.2.7
 
 cal_ic50.R:   This study used four drug cell line sensitivity datasets (secondary, CTPR, GDSC1, and GDSC2) from the DepMap database as research objects, and re fitted the dose-response curves using the "dr4pl" package of R software; For repeated drug cell line data, take the median of their values and merge them.
 
-new_atten_renet.py:   Model training to determine optimal parameters.
+predict_ic50.py:   Model training to determine optimal parameters.
 
 new_test.py:   Test using the optimal parameter independent test set.
 
