@@ -20,6 +20,7 @@ Pandas version: 2.2.3
 
 Scikit-learn version: 1.6.1
 
+XGBoost version: 2.0.3
 
 Hyperopt version: 0.2.7
 
