@@ -31,6 +31,8 @@ Hyperopt version: 0.2.7
 
 cal_ic50.R:   This study used four drug cell line sensitivity datasets (secondary, CTPR, GDSC1, and GDSC2) from the DepMap database as research objects, and re fitted the dose-response curves using the "dr4pl" package of R software; For repeated drug cell line data, take the median of their values and merge them.
 
+run_paired.sh: Upstream analysis pipeline for paired-end RNA-seq.
+
 predict_ic50.py:  Model Training and Optimal Parameter Optimization of a Regression Model for Predicting Drug Sensitivity (IC50).
 
 predict_response.py: Model Training and Optimal Parameter Optimization of a classification Model for Predicting Patients’ Response to Drugs.
